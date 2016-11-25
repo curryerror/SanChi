@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main0"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:background="#8cc152"
+
+    tools:context="com.jian.sanchi.Main0">
+
+    <TextView
+        android:text="@string/main0_text"
+        android:layout_width="match_parent"
+        android:layout_height="405dp"
+        android:layout_gravity="center_vertical"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textStyle="normal|bold"
+        android:fontFamily="sans-serif"
+        android:textColor="#2b1b3e"
+        android:id="@+id/main0_textView"
+        tools:gravity="center_vertical|center_horizontal"
+        android:gravity="center_horizontal" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_gravity="bottom"
+        android:orientation="horizontal" >
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:layout_marginRight="10dp"
+            android:background="#7f2b1b3e"
+            android:text="@string/main6_sing_up"
+            android:id="@+id/main0_btn1"
+            android:textColor="#f1fcf8f8"
+            android:textAllCaps="false"
+            android:textStyle="normal|bold" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:text="@string/main6_sing_in"
+            android:background="#7f2b1b3e"
+            android:textColor="#defbf9f9"
+            android:textAllCaps="false"
+            android:id="@+id/main0_btn2"
+            android:textStyle="normal|bold" />
+    </LinearLayout>
+
+</FrameLayout>

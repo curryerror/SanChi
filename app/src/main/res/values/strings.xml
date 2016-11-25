@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">三尺剑</string>
+    <string name="main0_btntext">九夏</string>
+    <string name="main1_btntext">三冬</string>
+    <string name="main2_btntext">豫北</string>
+    <string name="main3_btntext">江东</string>
+    <string name="main4_btntext">LOVE</string>
+    <string name="main5_btntext">Button</string>
+    <string name="main6_sing_up">Yan Yan</string>
+    <string name="main6_sing_in">Love</string>
+    <string name="main0_text">生</string>
+    <string name="main1_text">生\n日</string>
+    <string name="main2_text">生\n日\n快</string>
+    <string name="main3_text">生\n日\n快\n乐</string>
+
+
+
+</resources>
